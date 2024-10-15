@@ -62,9 +62,9 @@ Shorten the Semantic distance
 
 ## Supported Vitals
 
--Temperature
--Soc
--Charge Rate
+- Temperature
+- Soc
+- Charge Rate
 
 Supported Vital Status
 
