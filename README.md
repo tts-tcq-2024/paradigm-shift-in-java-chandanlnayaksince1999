@@ -66,34 +66,34 @@ Shorten the Semantic distance
 - Soc
 - Charge Rate
 
-Supported Vital Status
+## Supported Vital Status
 
-    Out of range
-    breach
-    warning
-    normal
+ - Out of range
+ - breach
+ - warning
+ - normal
 
-Supported limits
+## Supported limits
 
-    upper limit
-    lower limit
-    in range
+ - upper limit
+ - lower limit
+ - in range
 
-Supported language logs
+## Supported language logs
 
-    English
-    Germain
+ - English
+ - Germain
 
-How It Works
+## How It Works
 
-    Current each Battery vital has been configured with defined upper and lower limits for their vital statuses
-    The Battery vital may or may not have all status limits but will always have at least out of range limits.
-    If the provided value it exceeding any limit then warning logs will be printed
-    If the provided value is out of range then warning logs as well as out of range log will be printed
-    Based on the language selected, the log will be printed in that language
+ - Current each Battery vital has been configured with defined upper and lower limits for their vital statuses
+ - The Battery vital may or may not have all status limits but will always have at least out of range limits.
+ - If the provided value it exceeding any limit then warning logs will be printed
+ - If the provided value is out of range then warning logs as well as out of range log will be printed
+ - Based on the language selected, the log will be printed in that language
 
 Fix
 
-    change folder to parameter
-    used jagged array
-    use ILogger and implement in ConsoleLogger
+ - change folder to parameter
+ - used jagged array
+ - use ILogger and implement in ConsoleLogger
