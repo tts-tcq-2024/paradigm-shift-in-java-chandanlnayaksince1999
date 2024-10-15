@@ -60,11 +60,11 @@ Shorten the Semantic distance
 - Object oriented to encapsulate state with actions
 - Apect oriented to capture repeating aspects
 
-Supported Vitals
+## Supported Vitals
 
-    Temperature
-    Soc
-    Charge Rate
+-Temperature
+-Soc
+-Charge Rate
 
 Supported Vital Status
 
