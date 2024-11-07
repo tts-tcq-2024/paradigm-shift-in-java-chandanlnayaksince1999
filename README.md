@@ -60,4 +60,31 @@ Shorten the Semantic distance
 - Object oriented to encapsulate state with actions
 - Apect oriented to capture repeating aspects
 
+## Supported Vitals
+- Temperature
+- Soc
+- Charge Rate
+
+## Supported Vital Status
+- Out of range
+- breach
+- warning
+- normal
+
+## Supported limits
+- upper limit
+- lower limit
+- in range
+
+## Supported language logs 
+- English
+- Germain
+
+## How It Works
+- Current each Battery vital has been configured with defined upper and lower limits for their vital statuses
+- The Battery vital may or may not have all status limits but will always have at least out of range limits.
+- If the provided value it exceeding any limit then warning logs will be printed
+- If the provided value is out of range then warning logs as well as out of range log will be printed
+- Based on the language selected, the log will be printed in that language
+
 
